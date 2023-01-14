@@ -1,12 +1,39 @@
 
 <div class="select">
-  <h1>Personal-info</h1>
-  <span>Please provide your name, email adress, and phone number.</span>
-  <label for="name">Name:</label>
-  <input type="text" id="name" required [(ngModel)]="user.name" placeholder="name">
-  <label for="email">Email Address:</label>
-  <input type="email" id="email" required>
-  <label for="phone">Phone Number:</label>
-  <input type="tel" id="phone" required>
+  <h1>Select your plan</h1>
+  <span>You have the option of monthly</span>
+ <div class="arcade">
+    <div class="icon">
+      <img src="./assets/images/icon-arcade.svg" alt="icone joystick">
+    </div>
+    <div class="plan-tarif">
+      <span class="title"><b>Arcade</b></span>
+      <span>$9/mo</span>
+    </div>
+  </div>
+ <div class="arcade">
+  <div class="icon">
+    <img src="./assets/images/icon-advanced.svg" alt="icone joypad">
+  </div>
+  <div class="plan-tarif">
+    <span class="title"><b>Advanced</b></span>
+    <span>$12/mo</span>
+  </div>
+  </div>
+  <div class="arcade">
+    <div class="icon">
+      <img src="./assets/images/icon-pro.svg" alt="icone joypad2">
+    </div>
+    <div class="plan-tarif">
+      <span class="title"><b>Pro</b></span>
+      <span>$15/mo</span>
+    </div>
+    </div>
+
+<div class="toggle">
+  <span>Monthly</span>
+  <div>toggle</div>
+  <span>Yearly</span>
+</div>
   </div>
 

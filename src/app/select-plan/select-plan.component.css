@@ -11,3 +11,22 @@
   height:60%;
   border-radius: 10px;
 }
+.arcade{
+  border: solid 1px;
+  align-items: center;
+  border-radius: 7px;
+  padding:20px;
+  margin:10px;
+  display: flex;
+}
+.plan-tarif{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  margin:10px;
+}
+.toggle{
+  display:flex;
+  justify-content: space-between;
+  margin: 120px;
+}

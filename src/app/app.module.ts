@@ -13,6 +13,7 @@ import { AddOnsComponent } from './add-ons/add-ons.component';
 import { FinishingComponent } from './finishing/finishing.component';
 import { Etape1Component } from './etape1/etape1.component';
 import { NextStepComponent } from './next-step/next-step.component';
+import { Etape2Component } from './etape2/etape2.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NextStepComponent } from './next-step/next-step.component';
     AddOnsComponent,
     FinishingComponent,
     Etape1Component,
-    NextStepComponent
+    NextStepComponent,
+    Etape2Component
   ],
   imports: [
     BrowserModule,
