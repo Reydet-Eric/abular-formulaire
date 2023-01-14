@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: url('/src/assets/fonts/Ubuntu-Bold.ttf');
+}
+
+
 .infos{
+  font-family: 'Ubuntu-Bold';
   display:flex;
   flex-direction: column;
   justify-content: space-around;
