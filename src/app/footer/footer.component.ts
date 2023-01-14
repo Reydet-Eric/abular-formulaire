@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from '../variables/user';
 
 @Component({
   selector: 'app-footer',
@@ -6,10 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
+user: User= {
+  page:1
+}
 
   addPage(){
-    // this.user.page ++
+    this.user.page ++
     console.log('next')
-    // console.log(`${this.user.page}`)
+    console.log(`${this.user.page}`)
   }
 }

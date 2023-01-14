@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NumeroPageComponent } from './numero-page/numero-page.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
+import { SelectPlanComponent } from './select-plan/select-plan.component';
+import { AddOnsComponent } from './add-ons/add-ons.component';
+import { FinishingComponent } from './finishing/finishing.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { PersonalInfoComponent } from './personal-info/personal-info.component';
     HeaderComponent,
     FooterComponent,
     NumeroPageComponent,
-    PersonalInfoComponent
+    PersonalInfoComponent,
+    SelectPlanComponent,
+    AddOnsComponent,
+    FinishingComponent
   ],
   imports: [
     BrowserModule,
