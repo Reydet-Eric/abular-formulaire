@@ -14,6 +14,7 @@ import { FinishingComponent } from './finishing/finishing.component';
 import { Etape1Component } from './etape1/etape1.component';
 import { NextStepComponent } from './next-step/next-step.component';
 import { Etape2Component } from './etape2/etape2.component';
+import { Etape3Component } from './etape3/etape3.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { Etape2Component } from './etape2/etape2.component';
     FinishingComponent,
     Etape1Component,
     NextStepComponent,
-    Etape2Component
+    Etape2Component,
+    Etape3Component
   ],
   imports: [
     BrowserModule,
