@@ -8,12 +8,4 @@
   padding:10px;
   flex-direction: row-reverse;
 }
-.next{
-  background-color: rgb(5, 5, 40);
-  color:rgb(139, 195, 215);
-  height:40px;
-  width:100px;
-  align-items: center;
-  margin-right: 20px;
-  border-radius:6px;
-}
+

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from '../variables/user';
 
 @Component({
   selector: 'app-select-plan',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./select-plan.component.css']
 })
 export class SelectPlanComponent {
-
+  user: User={
+    page:1,
+      }
 }

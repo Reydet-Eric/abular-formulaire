@@ -11,6 +11,8 @@ import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { SelectPlanComponent } from './select-plan/select-plan.component';
 import { AddOnsComponent } from './add-ons/add-ons.component';
 import { FinishingComponent } from './finishing/finishing.component';
+import { Etape1Component } from './etape1/etape1.component';
+import { NextStepComponent } from './next-step/next-step.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FinishingComponent } from './finishing/finishing.component';
     PersonalInfoComponent,
     SelectPlanComponent,
     AddOnsComponent,
-    FinishingComponent
+    FinishingComponent,
+    Etape1Component,
+    NextStepComponent
   ],
   imports: [
     BrowserModule,

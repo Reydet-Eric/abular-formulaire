@@ -9,6 +9,5 @@ import { User } from '../variables/user';
 export class PersonalInfoComponent {
   user: User={
     page:1,
-    
-  }
+      }
 }

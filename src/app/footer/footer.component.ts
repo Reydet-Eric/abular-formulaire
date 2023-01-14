@@ -8,12 +8,12 @@ import { User } from '../variables/user';
 })
 export class FooterComponent {
 user: User= {
-  page:1
+  page:2
 }
 
   addPage(){
     this.user.page ++
-    console.log('next')
-    console.log(`${this.user.page}`)
+
+    console.log(`page: ${this.user.page}`)
   }
 }

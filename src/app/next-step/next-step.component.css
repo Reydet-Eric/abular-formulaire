@@ -1,0 +1,12 @@
+.next{
+  background-color: rgb(5, 5, 40);
+  color:rgb(139, 195, 215);
+  height:40px;
+  width:100px;
+  align-items: center;
+  margin-right: 20px;
+  border-radius:6px;
+  position:fixed;
+  right: 10px;
+  bottom:15px;
+}

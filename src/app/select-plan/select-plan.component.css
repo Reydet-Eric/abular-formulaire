@@ -1,0 +1,13 @@
+.select{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(252, 250, 246);
+  position: fixed;
+  top: 150px;
+  margin:20px;
+  padding:20px;
+  width:calc(100% - 80px);
+  height:60%;
+  border-radius: 10px;
+}
