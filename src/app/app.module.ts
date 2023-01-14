@@ -15,6 +15,7 @@ import { Etape1Component } from './etape1/etape1.component';
 import { NextStepComponent } from './next-step/next-step.component';
 import { Etape2Component } from './etape2/etape2.component';
 import { Etape3Component } from './etape3/etape3.component';
+import { Etape4Component } from './etape4/etape4.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { Etape3Component } from './etape3/etape3.component';
     Etape1Component,
     NextStepComponent,
     Etape2Component,
-    Etape3Component
+    Etape3Component,
+    Etape4Component
   ],
   imports: [
     BrowserModule,
