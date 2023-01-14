@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User} from './variables/user'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'formulaire';
+  user: User={
+    page:1,
+    name: 'eric',
+    email:'',
+    phone: 0
+  }
 }
