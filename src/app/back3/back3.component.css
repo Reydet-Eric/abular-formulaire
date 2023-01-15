@@ -1,12 +1,17 @@
-.next{
-  background-color: rgb(226, 226, 236);
+.back{
+  background-color: white;
   color:rgb(139, 195, 215);
   height:40px;
   width:100px;
   align-items: center;
-  margin-right: 20px;
+  margin-left: 20px;
   border-radius:6px;
   position:fixed;
-  right: 10px;
+  left: 10px;
   bottom:15px;
+}
+
+a{
+  text-decoration: none;
+  color:grey;
 }

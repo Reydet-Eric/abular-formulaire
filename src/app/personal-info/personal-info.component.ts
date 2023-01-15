@@ -6,8 +6,11 @@ import { User } from '../variables/user';
   templateUrl: './personal-info.component.html',
   styleUrls: ['./personal-info.component.css']
 })
+
 export class PersonalInfoComponent {
   user: User={
     page:1,
+    okPersonalInfo: false
       }
+
 }
