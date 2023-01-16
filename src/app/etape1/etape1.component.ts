@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { myUser } from '../variables/myUser';
 import { User } from '../variables/user';
 
 @Component({
@@ -7,14 +8,12 @@ import { User } from '../variables/user';
   styleUrls: ['./etape1.component.css']
 })
 export class Etape1Component {
-  user: User={
+  myUser: User={
     page:1,
-
-
     okPersonalInfo: false
       }
 
-      if (){
-        this.user.okPersonalInfo = true;
-      }
+       if ( ) {
+myUser.okPersonalInfo =true
+ }
 }

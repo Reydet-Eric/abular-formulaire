@@ -2,14 +2,14 @@
 <div class="infos">
   <h1>Personal-info</h1>
   <span><h3>provide your name, email adress, and phone number.</h3> </span>
-   <span>pour test: page:{{user.page}} name: {{user.name}} ok pour page suivante: {{user.okPersonalInfo}} </span>
+   <!-- <span>pour test: page:{{myUser.page}} name: {{myUser.name}} ok pour page suivante: {{myUser.okPersonalInfo}} </span> -->
   <form>
     <label for="name">Name:</label>
-    <input type="text" id="name"  [(ngModel)]="user.name" placeholder="name" >
+    <input type="text" id="name"  [(ngModel)]="myUser.name" [ngModelOptions]="{standalone: true}" placeholder="name" >
     <label for="email">Email Address:</label>
-    <input type="email" id="email" [(ngModel)]="user.email" placeholder="email">
+    <input type="email" id="email" [(ngModel)]="myUser.email"[ngModelOptions]="{standalone: true}" placeholder="email">
     <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone"  [(ngModel)]="user.phone" placeholder="00 00 00 00 00">
+    <input type="tel" id="phone"  [(ngModel)]="myUser.phone" [ngModelOptions]="{standalone: true}" placeholder="00 00 00 00 00">
   </form>
   </div>
 

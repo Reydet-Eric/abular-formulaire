@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { myUser } from '../variables/myUser';
 import { User } from '../variables/user';
 
 @Component({
@@ -8,11 +9,10 @@ import { User } from '../variables/user';
 })
 
 export class PersonalInfoComponent {
-  user: User={
-    page:1,
-    name:'eric',
-    okPersonalInfo: false
-      }
 
+myUser : User = {
+  page: 1};
 
+  
 }
+
